@@ -1,0 +1,16 @@
+E:\Source code\VBNet\SIMarket\EPOS\EPOS\bin\Debug\EPOS.exe
+E:\Source code\VBNet\SIMarket\EPOS\EPOS\bin\Debug\EPOS.pdb
+E:\Source code\VBNet\SIMarket\EPOS\EPOS\bin\Debug\EPOS.xml
+E:\Source code\VBNet\SIMarket\EPOS\EPOS\obj\x86\Debug\EPOS.frmModSysAdmin.resources
+E:\Source code\VBNet\SIMarket\EPOS\EPOS\obj\x86\Debug\EPOS.FrmBarang.resources
+E:\Source code\VBNet\SIMarket\EPOS\EPOS\obj\x86\Debug\EPOS.frmLogin.resources
+E:\Source code\VBNet\SIMarket\EPOS\EPOS\obj\x86\Debug\EPOS.frmsetting.resources
+E:\Source code\VBNet\SIMarket\EPOS\EPOS\obj\x86\Debug\EPOS.frmMenuUtama.resources
+E:\Source code\VBNet\SIMarket\EPOS\EPOS\obj\x86\Debug\EPOS.Resources.resources
+E:\Source code\VBNet\SIMarket\EPOS\EPOS\obj\x86\Debug\EPOS.FrmSettingDBS.resources
+E:\Source code\VBNet\SIMarket\EPOS\EPOS\obj\x86\Debug\EPOS.vbproj.GenerateResource.Cache
+E:\Source code\VBNet\SIMarket\EPOS\EPOS\obj\x86\Debug\EPOS.exe
+E:\Source code\VBNet\SIMarket\EPOS\EPOS\obj\x86\Debug\EPOS.xml
+E:\Source code\VBNet\SIMarket\EPOS\EPOS\obj\x86\Debug\EPOS.pdb
+E:\Source code\VBNet\SIMarket\EPOS\EPOS\obj\x86\Debug\Interop.Office.dll
+E:\Source code\VBNet\SIMarket\EPOS\EPOS\obj\x86\Debug\EPOS.vbproj.ResolveComReference.cache

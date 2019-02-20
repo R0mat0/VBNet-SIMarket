@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6A56C467-6C4F-4EA5-90F1-8BC416B0D1B9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>EPOS.My.MyApplication</StartupObject>
+    <RootNamespace>EPOS</RootNamespace>
+    <AssemblyName>EPOS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>EPOS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>EPOS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmSupplier.Designer.vb">
+      <DependentUpon>FrmSupplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCustomer.Designer.vb">
+      <DependentUpon>FrmCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmsetting.Designer.vb">
+      <DependentUpon>frmsetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmsetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModSysAdmin.Designer.vb">
+      <DependentUpon>frmModSysAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmModSysAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBarang.Designer.vb">
+      <DependentUpon>FrmBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuUtama.Designer.vb">
+      <DependentUpon>MenuUtama.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuUtama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modul\ModFunction.vb" />
+    <Compile Include="Modul\ModKoneksi.vb" />
+    <Compile Include="Modul\ModVar.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Resources\frmSettingDBS.Designer.vb">
+      <DependentUpon>frmSettingDBS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\frmSettingDBS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmSupplier.resx">
+      <DependentUpon>FrmSupplier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCustomer.resx">
+      <DependentUpon>FrmCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModSysAdmin.resx">
+      <DependentUpon>frmModSysAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBarang.resx">
+      <DependentUpon>FrmBarang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmsetting.resx">
+      <DependentUpon>frmsetting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuUtama.resx">
+      <DependentUpon>MenuUtama.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\frmSettingDBS.resx">
+      <DependentUpon>frmSettingDBS.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\administrator-icon-60px.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-samping.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-samping-emboss.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\daftar-harga.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\header.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\header2-buying.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\header3-inventory.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\header4-sell.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\INFO-REVISI.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventory.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kr-pos.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laporan.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGOUT-REVISI.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\master-barang.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\master-customer.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\master-pegawai.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\master-profile.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\master-supplyer.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pembelian.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\penjualan.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\return.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CHECKMRK.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\option.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Undo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save File %2832x32%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel File%2832x32%29 .ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel File%2832x32%29 1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Inventori\" />
+    <Folder Include="Pembelian\Penjualan\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Office">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>99</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1425837994checkIcon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
